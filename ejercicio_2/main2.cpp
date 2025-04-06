@@ -58,6 +58,8 @@ int main()
     curso1.print_en_orden();
 
     //Que relacion tienen curso y estudiante?
+    //Tienen una relacion de agregacion. El whole seria el curso, y las parts serian los estudiantes. Un estudiante
+    //puede existir sin un curso y al reves tambien.
     
     return 0;
 }
